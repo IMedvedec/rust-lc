@@ -13,4 +13,4 @@ Cargo.lock
 /src/bin
 
 # Hidden OS files
-.DS_Store
+**/.DS_Store
