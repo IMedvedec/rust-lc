@@ -1,13 +1,9 @@
-mod two_sum;
+mod palindrome_number;
 
 fn main() {
-    let nums = [3, 3];
-    let target = 6;
+    let x = -101;
 
-    let (i, j) = two_sum::two_sum(&nums, target);
+    let result = palindrome_number::is_palindrome(x);
 
-    println!(
-        "Numbers on indices that sum on target are: {} and {}.",
-        i, j
-    )
+    println!("Is {} palindrome? {}", x, result)
 }
