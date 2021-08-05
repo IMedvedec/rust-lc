@@ -11,3 +11,6 @@ Cargo.lock
 
 # Remove binary execution file
 /src/bin
+
+# Hidden OS files
+.DS_Store
