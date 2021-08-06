@@ -1,3 +1,5 @@
+/// Returns the 32 bit integer as reversed.
+/// If the reversed integer would overflow, return 0.
 pub fn reverse(x: i32) -> i32 {
     let mut mut_x = x;
 
@@ -25,6 +27,8 @@ pub fn reverse(x: i32) -> i32 {
     result
 }
 
+/// Represents the same functionality as reverse.
+/// Function is written in funcitonal paradigm which gives a classy solution.
 pub fn reverse_functional(x: i32) -> i32 {
     x.abs()
         .to_string()
